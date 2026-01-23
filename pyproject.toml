@@ -11,3 +11,8 @@ dependencies = [
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
 ]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.16.6",
+]
